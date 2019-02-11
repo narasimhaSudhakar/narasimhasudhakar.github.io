@@ -24,7 +24,7 @@
     border-color: cornflowerblue;
     border-radius: 90px;}
 		.photo:hover{opacity:1;cursor:pointer;border-radius: 150px;border-color: #ccf381;}
-		.hoverText {margin-top: 10px;}
+		.hoverText {margin-top: 10px;font-weight: 900;text-shadow: 2px 0px 0 #000;}
 		#works-gallery {position: absolute;top: 0px;width:99%;margin:0 auto;z-index:1;height:8%;display:inline-block;cursor:pointer;background:#B9D2CF}
 		.works-gallery nav a {display:block;height:100%;overflow:hidden;position:absolute;width:20.5%;z-index:4;}nav{text-align:center;width:100%}
 		nav a.projects{display: inline-block;margin-left: -4px;width: 20.50%;color:#f3f3f3;text-decoration:none}
