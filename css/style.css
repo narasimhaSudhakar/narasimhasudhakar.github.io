@@ -1,16 +1,16 @@
 		@font-face{font-family:sudhakar;src: url(../fonts/Caviar-Dreams/CaviarDreams.ttf);}
-		body{background:#2d8b9c;color:#fff;overflow:scroll}
+		body{background:#2C549B;color:#fff;overflow:scroll}
 		*,body{margin:0px;padding:0px;font-family:sudhakar;font-weight:400}
 		.ie-msg{display:none}
 		.brw-msg{background:rgba(0,0,0,.3);position:fixed;top:0%;left:0%;z-index:300;padding:.21%}
 		.brw-msg p{color:#fff;font-size:.7em;font-family:arial}
 		.header-r,.about-r{display:none}
 		#main{margin:.7% auto;width:99%;}
-		#header{background:#efa94b;color:#fff;position:absolute;width:99%}
+		#header{background:#ccf381;color:#000;position:absolute;width:99%}
 		.clearfix{clear:both;display: block;}
 		#contact{display:inline-block;position:absolute;width:99%;background:#90C5BB;z-index:-2;height:40px;padding:30px 0px;text-align:center}
 		#contact p{font-size:20px}
-		#about{margin-top:2%;position:absolute;top:32%;left:39.5%;z-index:0;width:50%}
+		#about{margin-top:2%;position:absolute;top:30%;left:39.5%;z-index:0;width:50%}
 		#about h2{display:inline;font-size:2.4em;position:relative;top:.9em}
 		#about p{font-size:1.3em;line-height:1.7em}
 		#about .about-details{margin-top:6%}
@@ -18,21 +18,21 @@
 		#works-gallery {position: absolute;top: 0px;width:99%;margin:0 auto;z-index:1;height:8%;display:inline-block;cursor:pointer;background:#B9D2CF}
 		.works-gallery nav a {display:block;height:100%;overflow:hidden;position:absolute;width:20.5%;z-index:4;}nav{text-align:center;width:100%}
 		nav a.projects{display: inline-block;margin-left: -4px;width: 20.50%;color:#f3f3f3;text-decoration:none}
-		nav a#project-1{background:#be6d5f;left:0%}
-		nav a#project-2{background:#a1736b;left:20%}
-		nav a#project-3{background:#be6d5f;left:40%}
-		nav a#project-4{background:#a1736b;left:60%}
-		nav a#project-5{background:#be6d5f;;left:80%}
+		nav a#project-1{background:cornflowerblue;left:0%}
+		nav a#project-2{background:#ccf381;left:20%}
+		nav a#project-3{background:cornflowerblue;left:40%}
+		nav a#project-4{background:#ccf381;left:60%}
+		nav a#project-5{background:cornflowerblue;;left:80%}
 		.arrow{display:inline-block;position:absolute;top:23%;z-index:100;left:49%;opacity:.2}
-		.project-title{font-size:24px;margin:130px 0 10px}
-		.project-line {background: none repeat scroll 0 0 #FFFFFF;height:1px;margin-left:14%;width:70%;}
-		.project-year{margin:10px 0}
+		.project-title{font-size:24px;margin:130px 0 10px;color:#000}
+		.project-line {background: none repeat scroll 0 0 #000;height:1px;margin-left:14%;width:70%;}
+		.project-year{margin:10px 0;color:#000}
 		#header{height:25%}
-		#header h1{position:absolute;text-align:center;left:39.1%;top:38%}
+		#header h1{position:absolute;text-align:center;left:39.1%;top:38%;text-shadow: #36B  1px 1px 0px;}
 		#header .slide-in {left: 35%;display:none}
 		#header h2{display:none}
 		#header .mail{left:33.1%}
-		#header p{position:absolute;top:10%;right:5%}
+		/* #header p{position:absolute;top:10%;right:5%} */
 		#header p a{color:#fff;text-decoration:none;font-size:1.3em}
 		.year{position:absolute;left:-60%}
 		.mail{display:none}
@@ -51,6 +51,9 @@
 		.contents .wrapper .left{position:fixed;left:3%;top:52%;z-index:100;opacity:.2}
 		.contents h2{margin-left:1em}
 		.mobile-menu{display:none}
+		.headerLinks{width: 100%;display: inline-block;text-align: right;}
+		.headerLinks p {display: inline-block;margin: 10px 10px 10px 0px;}
+		.headerLinks p a{color:#000 !important}
 		
 		/*mobile styles*/
 		@media only screen and (max-width:1024px){
